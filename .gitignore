@@ -1,10 +1,11 @@
+# Dossiers compilation
 archetypes/
-content/
 data/
 layouts/
 resources/
 static/
 themes/
 
+# Fichiers configuration
 .DS_Store
 .hugo_build.lock
