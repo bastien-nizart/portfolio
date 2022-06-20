@@ -5,6 +5,7 @@ layouts/
 resources/
 static/
 themes/
+content/projets/draft
 
 # Fichiers configuration
 .DS_Store
