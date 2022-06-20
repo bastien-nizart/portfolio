@@ -13,6 +13,8 @@ categories = [
     "programmation",
     "math"
 ]
+
+depotName = "Dépot du projet"
 depot = "https://github.com/bastien-nizart/CarreMagiqueJava"
 +++
 # Carré Magique en JAVA
@@ -21,6 +23,11 @@ depot = "https://github.com/bastien-nizart/CarreMagiqueJava"
 
 Ce petit projet JAVA permet de créer un objet **Carre**.
 Puis de vérifier si ce dernier est un carré magique ou non.
+
+## Description technique
+
+* Langage : Java
+* Test : JUnit 5
 
 ## Rappel Carré Magique 
 
@@ -71,3 +78,43 @@ la classe carré.
 Carre.trouverConstanteMagique(int dimension)
 ```
 * dimension : La longueur / largeur du carré
+
+## Exemple d'utilisation
+
+### Avec un carré magique
+
+Dans cet exemple, nous utiliserons la matrice : 
+
+| 8 | 1 | 6 |
+| - | - | - |
+| 3 | 5 | 7 |
+| 4 | 9 | 2 |
+
+Qui est un carré magique de constante magique `n = 15`
+
+Après avoir créé un objet du type `Carre` dans notre programme, et lui avoir fourni les valeurs de notre matrice.
+Les résultats des tests sont les suivants : 
+
+![resultat-carre-magique](resultat-carre-magique.png)
+
+Nous voyons donc que le programme reconnaît ce carré comme étant un carré magique.
+
+### Avec un carré classique
+
+Dans cet exemple, nous utiliserons la matrice : 
+
+| 9 | 1 | 7 |
+| - | - | - |
+| 3 | 2 | 7 |
+| 18 | 9 | 2 |
+
+Qui n'est pas un carré magique et n'a donc pas de constante magique.
+
+![resultat-carre](resultat-carre.png)
+
+Nous voyons donc que le programme reconnaît ce carré comme n'étant pas un carré magique.
+
+## Compétences acquises
+
+* Math : J'ai appris ce qu'était un carré magique ainsi qu'une constante magique.
+* Java : J'ai manipulé le langage java, ainsi que la librairie de test JUnit 5.
