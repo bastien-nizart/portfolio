@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programmation on Bastien Nizart</title>
+    <link>https://bastien.nizart.me/categories/programmation/</link>
+    <description>Recent content in programmation on Bastien Nizart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 20 May 2022 10:19:28 +0200</lastBuildDate><atom:link href="https://bastien.nizart.me/categories/programmation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Carré Magique (JAVA)</title>
+      <link>https://bastien.nizart.me/projets/carre-magique/</link>
+      <pubDate>Fri, 20 May 2022 10:19:28 +0200</pubDate>
+      
+      <guid>https://bastien.nizart.me/projets/carre-magique/</guid>
+      <description>Carré Magique en JAVA    Description    Ce petit projet JAVA permet de créer un objet Carre. Puis de vérifier si ce dernier est un carré magique ou non.
+Rappel Carré Magique    On dit qu&amp;rsquo;un carré est un carré magique si ce dernier réuni deux conditions :
+ la somme des nombres des diagonales est égale à la somme des nombres des colonnes. Elle-même égale à la somme des nombres d&amp;rsquo;une ligne Il existe, dans ce carré de taille n, tous les nombres compris entre 1 et n²  Utilisation du programme    Ligne    Pour générer l&amp;rsquo;instance d&amp;rsquo;une ligne, il suffit d&amp;rsquo;appeler son constructeur</description>
+    </item>
+    
+  </channel>
+</rss>

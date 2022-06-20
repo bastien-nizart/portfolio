@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Bastien Nizart</title>
+    <link>https://bastien.nizart.me/en/tags/</link>
+    <description>Recent content in Tags on Bastien Nizart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 20 May 2022 10:19:28 +0200</lastBuildDate><atom:link href="https://bastien.nizart.me/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>java</title>
+      <link>https://bastien.nizart.me/en/tags/java/</link>
+      <pubDate>Fri, 20 May 2022 10:19:28 +0200</pubDate>
+      
+      <guid>https://bastien.nizart.me/en/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>math</title>
+      <link>https://bastien.nizart.me/en/tags/math/</link>
+      <pubDate>Fri, 20 May 2022 10:19:28 +0200</pubDate>
+      
+      <guid>https://bastien.nizart.me/en/tags/math/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

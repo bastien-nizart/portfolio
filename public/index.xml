@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bastien Nizart</title>
+    <link>https://bastien.nizart.me/</link>
+    <description>Recent content on Bastien Nizart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 20 May 2022 10:19:28 +0200</lastBuildDate><atom:link href="https://bastien.nizart.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Carré Magique (JAVA)</title>
+      <link>https://bastien.nizart.me/projets/carre-magique/</link>
+      <pubDate>Fri, 20 May 2022 10:19:28 +0200</pubDate>
+      
+      <guid>https://bastien.nizart.me/projets/carre-magique/</guid>
+      <description>Carré Magique en JAVA    Description    Ce petit projet JAVA permet de créer un objet Carre. Puis de vérifier si ce dernier est un carré magique ou non.
+Rappel Carré Magique    On dit qu&amp;rsquo;un carré est un carré magique si ce dernier réuni deux conditions :
+ la somme des nombres des diagonales est égale à la somme des nombres des colonnes. Elle-même égale à la somme des nombres d&amp;rsquo;une ligne Il existe, dans ce carré de taille n, tous les nombres compris entre 1 et n²  Utilisation du programme    Ligne    Pour générer l&amp;rsquo;instance d&amp;rsquo;une ligne, il suffit d&amp;rsquo;appeler son constructeur</description>
+    </item>
+    
+    <item>
+      <title>À propos</title>
+      <link>https://bastien.nizart.me/a-propos/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bastien.nizart.me/a-propos/</guid>
+      <description>Qui suis-je ?    Salut, je suis Bastien, un développeur back end de 19ans actuellement étudiant en informatique (BUT Informatique) et développeur salarié (Développeur Web Back End).
+Je suis passionné d&amp;rsquo;informatique depuis mes 12ans. Et depuis cet âge, je n&amp;rsquo;ai pas cessé de bidouiller que ce soit en software ou en hardware.
+Mes outils du quotidien    En qualité de développeur Back End non original, je développe essentiellement en PHP.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://bastien.nizart.me/projets/draft/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bastien.nizart.me/projets/draft/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>https://bastien.nizart.me/projets/draft/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bastien.nizart.me/projets/draft/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>More Rich Content</title>
+      <link>https://bastien.nizart.me/projets/draft/more-rich-content/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bastien.nizart.me/projets/draft/more-rich-content/</guid>
+      <description>&lt;p&gt;Hugo Coder provides some Custom Shortcodes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://bastien.nizart.me/projets/draft/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bastien.nizart.me/projets/draft/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://bastien.nizart.me/projets/draft/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bastien.nizart.me/projets/draft/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://bastien.nizart.me/projets/draft/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bastien.nizart.me/projets/draft/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
