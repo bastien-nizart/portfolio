@@ -15,7 +15,7 @@ categories = [
 ]
 
 depotName = "Dépot du projet"
-depot = "https://github.com/bastien-nizart/CarreMagiqueJava"
+depotLink = "https://github.com/bastien-nizart/CarreMagiqueJava"
 +++
 # Carré Magique en JAVA
 
