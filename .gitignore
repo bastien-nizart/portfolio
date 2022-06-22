@@ -6,6 +6,7 @@ resources/
 static/
 themes/
 content/projets/draft
+isableFastRender
 
 # Fichiers configuration
 .DS_Store

@@ -6,40 +6,31 @@
     <description>Recent content in Categories on Bastien Nizart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 20 May 2022 10:19:28 +0200</lastBuildDate><atom:link href="https://bastien.nizart.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Jun 2022 10:19:28 +0200</lastBuildDate><atom:link href="https://bastien.nizart.me/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>math</title>
-      <link>https://bastien.nizart.me/categories/math/</link>
-      <pubDate>Fri, 20 May 2022 10:19:28 +0200</pubDate>
+      <title>jeu</title>
+      <link>https://bastien.nizart.me/categories/jeu/</link>
+      <pubDate>Tue, 21 Jun 2022 10:19:28 +0200</pubDate>
       
-      <guid>https://bastien.nizart.me/categories/math/</guid>
+      <guid>https://bastien.nizart.me/categories/jeu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>programmation</title>
       <link>https://bastien.nizart.me/categories/programmation/</link>
-      <pubDate>Fri, 20 May 2022 10:19:28 +0200</pubDate>
+      <pubDate>Tue, 21 Jun 2022 10:19:28 +0200</pubDate>
       
       <guid>https://bastien.nizart.me/categories/programmation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>syntax</title>
-      <link>https://bastien.nizart.me/categories/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>math</title>
+      <link>https://bastien.nizart.me/categories/math/</link>
+      <pubDate>Fri, 20 May 2022 10:19:28 +0200</pubDate>
       
-      <guid>https://bastien.nizart.me/categories/syntax/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://bastien.nizart.me/categories/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bastien.nizart.me/categories/themes/</guid>
+      <guid>https://bastien.nizart.me/categories/math/</guid>
       <description></description>
     </item>
     

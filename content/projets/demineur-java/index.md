@@ -7,9 +7,6 @@ slug = ""
 author = "Bastien"
 tags = [
     "java",
-    "jeu"
-]
-categories = [
     "programmation",
     "jeu"
 ]

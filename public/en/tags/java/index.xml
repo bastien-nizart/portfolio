@@ -6,16 +6,26 @@
     <description>Recent content in java on Bastien Nizart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 20 May 2022 10:19:28 +0200</lastBuildDate><atom:link href="https://bastien.nizart.me/en/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Jun 2022 10:19:28 +0200</lastBuildDate><atom:link href="https://bastien.nizart.me/en/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Minesweeper (JAVA)</title>
+      <link>https://bastien.nizart.me/en/projets/demineur-java/</link>
+      <pubDate>Tue, 21 Jun 2022 10:19:28 +0200</pubDate>
+      
+      <guid>https://bastien.nizart.me/en/projets/demineur-java/</guid>
+      <description>Minesweeper with JAVA    Description    This java program allows you to run a Minesweeper game made in JAVA with the JavaFX graphical library. The program is very light, no image is used (a flag is represented by the letter D, while a mine will be represented by the letter M).
+Technical details     java version : 18 library manager : gradle test library : JUnit 5  The rules of the minesweeper    Based on Wikipedia :</description>
+    </item>
+    
     <item>
       <title>Magic Square (JAVA)</title>
       <link>https://bastien.nizart.me/en/projets/carre-magique/</link>
       <pubDate>Fri, 20 May 2022 10:19:28 +0200</pubDate>
       
       <guid>https://bastien.nizart.me/en/projets/carre-magique/</guid>
-      <description>Carré Magique en JAVA    Description    Ce petit projet JAVA permet de créer un objet Carre. Puis de vérifier si ce dernier est un carré magique ou non.
-Rappel Carré Magique    On dit qu&amp;rsquo;un carré est un carré magique si ce dernier réuni deux conditions :
- la somme des nombres des diagonales est égale à la somme des nombres des colonnes. Elle-même égale à la somme des nombres d&amp;rsquo;une ligne Il existe, dans ce carré de taille n, tous les nombres compris entre 1 et n²  Utilisation du programme    Ligne    Pour générer l&amp;rsquo;instance d&amp;rsquo;une ligne, il suffit d&amp;rsquo;appeler son constructeur</description>
+      <description>Magic Square with JAVA    Description    This small Java project allows you to create an object Carre. Then check if the latter is a magic square or not.
+Technical description     Language : Java Test : JUnit 5  Magic Square Reminder    A square is said to be a magic square if it meets two conditions:
+ the sum of the diagonal numbers is equal to the sum of the column numbers.</description>
     </item>
     
   </channel>

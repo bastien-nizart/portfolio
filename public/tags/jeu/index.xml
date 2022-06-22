@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jeu on Bastien Nizart</title>
+    <link>https://bastien.nizart.me/tags/jeu/</link>
+    <description>Recent content in jeu on Bastien Nizart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 21 Jun 2022 10:19:28 +0200</lastBuildDate><atom:link href="https://bastien.nizart.me/tags/jeu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Démineur (JAVA)</title>
+      <link>https://bastien.nizart.me/projets/demineur-java/</link>
+      <pubDate>Tue, 21 Jun 2022 10:19:28 +0200</pubDate>
+      
+      <guid>https://bastien.nizart.me/projets/demineur-java/</guid>
+      <description>Démineur en JAVA    Description    Ce programme java permet d&amp;rsquo;exécuter un jeu du Démineur fait en JAVA avec la bibliothèque graphique JavaFX. Le programme est très léger, aucune image n&amp;rsquo;est utilisée (un drapeau est représenté par la lettre D, tandis qu&amp;rsquo;une mine sera représentée par la lettre M).
+Détails techniques     version java : 18 gestionnaire bibliothèque : gradle librairie de test : JUnit 5  Rappel des règles du démineur    Selon Wikipédia</description>
+    </item>
+    
+  </channel>
+</rss>

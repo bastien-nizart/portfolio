@@ -13,9 +13,9 @@
       <pubDate>Fri, 20 May 2022 10:19:28 +0200</pubDate>
       
       <guid>https://bastien.nizart.me/en/projets/carre-magique/</guid>
-      <description>Carré Magique en JAVA    Description    Ce petit projet JAVA permet de créer un objet Carre. Puis de vérifier si ce dernier est un carré magique ou non.
-Rappel Carré Magique    On dit qu&amp;rsquo;un carré est un carré magique si ce dernier réuni deux conditions :
- la somme des nombres des diagonales est égale à la somme des nombres des colonnes. Elle-même égale à la somme des nombres d&amp;rsquo;une ligne Il existe, dans ce carré de taille n, tous les nombres compris entre 1 et n²  Utilisation du programme    Ligne    Pour générer l&amp;rsquo;instance d&amp;rsquo;une ligne, il suffit d&amp;rsquo;appeler son constructeur</description>
+      <description>Magic Square with JAVA    Description    This small Java project allows you to create an object Carre. Then check if the latter is a magic square or not.
+Technical description     Language : Java Test : JUnit 5  Magic Square Reminder    A square is said to be a magic square if it meets two conditions:
+ the sum of the diagonal numbers is equal to the sum of the column numbers.</description>
     </item>
     
   </channel>
