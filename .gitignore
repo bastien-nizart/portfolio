@@ -1,12 +1,6 @@
 # Dossiers compilation
-archetypes/
-data/
-layouts/
-resources/
-static/
-themes/
-content/projets/draft
-isableFastRender
+isableFastRender/
+themes/hugo-coder
 
 # Fichiers configuration
 .DS_Store

@@ -15,23 +15,7 @@
                 href="https://bastien.nizart.me/en/"
                 />
   </url><url>
-    <loc>https://bastien.nizart.me/en/categories/</loc>
-    <lastmod>2022-06-21T10:19:28+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://bastien.nizart.me/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bastien.nizart.me/en/categories/"
-                />
-  </url><url>
     <loc>https://bastien.nizart.me/en/tags/game/</loc>
-    <lastmod>2022-06-21T10:19:28+02:00</lastmod>
-  </url><url>
-    <loc>https://bastien.nizart.me/en/categories/game/</loc>
     <lastmod>2022-06-21T10:19:28+02:00</lastmod>
   </url><url>
     <loc>https://bastien.nizart.me/en/tags/java/</loc>
@@ -60,7 +44,7 @@
                 href="https://bastien.nizart.me/en/projets/demineur-java/"
                 />
   </url><url>
-    <loc>https://bastien.nizart.me/en/categories/programming/</loc>
+    <loc>https://bastien.nizart.me/en/tags/programming/</loc>
     <lastmod>2022-06-21T10:19:28+02:00</lastmod>
   </url><url>
     <loc>https://bastien.nizart.me/en/projets/</loc>
@@ -118,19 +102,6 @@
                 href="https://bastien.nizart.me/en/tags/math/"
                 />
   </url><url>
-    <loc>https://bastien.nizart.me/en/categories/math/</loc>
-    <lastmod>2022-05-20T10:19:28+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://bastien.nizart.me/categories/math/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bastien.nizart.me/en/categories/math/"
-                />
-  </url><url>
     <loc>https://bastien.nizart.me/en/authors/</loc>
     <xhtml:link
                 rel="alternate"
@@ -141,6 +112,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://bastien.nizart.me/en/authors/"
+                />
+  </url><url>
+    <loc>https://bastien.nizart.me/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://bastien.nizart.me/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bastien.nizart.me/en/categories/"
                 />
   </url><url>
     <loc>https://bastien.nizart.me/en/series/</loc>
