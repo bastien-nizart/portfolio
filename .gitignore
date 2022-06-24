@@ -1,6 +1,7 @@
 # Dossiers compilation
 isableFastRender/
 themes/hugo-coder
+themes/
 
 # Fichiers configuration
 .DS_Store
