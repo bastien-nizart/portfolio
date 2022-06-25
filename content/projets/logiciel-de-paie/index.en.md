@@ -1,114 +1,74 @@
 +++ 
 draft = false
-date = 2022-05-20T10:19:28+02:00
-title = "Magic Square (JAVA)"
+date = 2022-06-24T10:19:28+02:00
+title = "Payroll Management Software"
 description = ""
 slug = ""
 author = "Bastien"
 tags = [
-    "java",
+    "php",
     "programming",
-    "math"
+    "company"
 ]
 
-depotName = "Project repository"
-depotLink = "https://github.com/bastien-nizart/CarreMagiqueJava"
+depotName = "My account"
+depotLink = "https://github.com/bastien-nizart"
 +++
-# Magic Square with JAVA
+# Payroll Management Software
 
 ## Description
 
-This small Java project allows you to create an object **Carre**.
-Then check if the latter is a magic square or not.
+The sources of this software are not available on GitHub. Because this is a software I created especially for a company. I will however present it with the help of screenshot and explanation. 
 
-## Technical description
+This software therefore allows an administrator account (person involved in the distribution of payroll to employees within the company) to create an account for each employee, and to add his or her payroll records. 
 
-* Language : Java
-* Test : JUnit 5
+Thus, each employee with online access has the history of his pay sheets that he can download/ consult.
 
-## Magic Square Reminder 
+The software is therefore composed of two types of views:
+* The administration part 
+* The employee part
 
-A square is said to be a magic square if it meets two conditions:
+## Technical details
 
-- the sum of the diagonal numbers is equal to the sum of the column numbers. It itself is equal to the sum of the 
-line numbers
-- There are, in this size square **n**, all numbers between 1 and **n&#x00B2;**
+* Principal language : `PHP`
+* Framework PHP : `internal company framework`
+* Framework CSS : `Bootstrap`
+* Database : `MySQL`
 
-## Use of the program
+## Problem
 
-### Row
+The software was created in order to facilitate/ speed up the sending of payslips to employees.
 
-To generate the instance of a row, simply call its constructor
-```java
-Ligne row = new Ligne(int dimension, int[] values)
-```
-* dimension : the number of items in the row
-* values : table of number (of size `dimension`) to insert in the row
+Indeed, it was designed for a large company, with a lot of employees whose payslips were sent by mail one by one and store locally on a hard drive (obligation to keep them). 
 
-### Square
+The goal was therefore to create a platform on which payslips would be saved, and searchable at any time.
 
-To generate the instance of a square, simply call its constructor
-```java
-Carre square = new Carre(int dimension, Ligne[] rows)
-```
-* dimension : The length / width of the square
-* rows : a row table
+## Administration panel
 
-### Verification
+This part of the software allows the administrator to manage all aspects of the software.
 
-To verify that the instance of a square is magic, simply call the `estMagique()' method on the instance of our square
-```java
-boolean result = square.estMagique()
-```
-* result : vrai si le carré est magique, sinon faux
-* square : true if the square is magic, otherwise false
+![aspect-général](vue-ensemble.png)
 
-### Find the magic constant
+Employees can be added to the database here (where to use employees already existing and added from other software of the administration suite). 
+Once the employees have been added, several operations can be performed on them.
 
-The magic constant of a square of size `n` is the number to which the sum of rows, columns, and diagonals.
+![option salarié](option-salarie.png)
 
-To find it from the program, no need to instantiate a square, just run a static method of the square class.
-```java
-Carre.trouverConstanteMagique(int dimension)
-```
-* dimension : The length / width of the square
+We see here that we can: 
+* remove an employee
+* change your password if you forget
+* add a pay slip
 
-## example of Use
+The re-generate password is displayed in this way :
 
-### With a magic square
+![nouveau mot de passe](new-password.png)
 
-In this example, we will use the matrix : 
+Adding a pay slip is very simple. Simply date and then deposit the pay slip in pdf format
 
-| 8 | 1 | 6 |
-| - | - | - |
-| 3 | 5 | 7 |
-| 4 | 9 | 2 |
+![ajouter fiche](ajouter-fiche.png)
 
-Which is a magic square with a magic constant is equal to `n = 15'
+## Employee panel
 
-After creating a Carre object in our program, and providing it with the values of our matrix.
-The test results are as follows: 
+This part is much more sober, it allows the employee to view the complete history of his payslips or to download them.
 
-![resultat-carre-magique](resultat-carre-magique.png)
-
-So we see that the program recognizes this square as a magic square.
-
-### With a classic square
-
-In this example, we will use the matrix :
-
-| 9 | 1 | 7 |
-| - | - | - |
-| 3 | 2 | 7 |
-| 18 | 9 | 2 |
-
-Which is not a magic square and therefore has no magic constant.
-
-![resultat-carre](resultat-carre.png)
-
-So we see that the program recognizes this square as not a magic square.
-
-## Acquired skills
-
-* Math : I learned what a magic square was and a magic constant.
-* Java : I manipulated the java language, as well as the JUnit 5 test library.
+![vue agent](vue-agent.png)

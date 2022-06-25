@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>company on Bastien Nizart</title>
+    <link>https://bastien.nizart.me/en/tags/company/</link>
+    <description>Recent content in company on Bastien Nizart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 24 Jun 2022 10:19:28 +0200</lastBuildDate><atom:link href="https://bastien.nizart.me/en/tags/company/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Payroll Management Software</title>
+      <link>https://bastien.nizart.me/en/projets/logiciel-de-paie/</link>
+      <pubDate>Fri, 24 Jun 2022 10:19:28 +0200</pubDate>
+      
+      <guid>https://bastien.nizart.me/en/projets/logiciel-de-paie/</guid>
+      <description>Payroll Management Software    Description    The sources of this software are not available on GitHub. Because this is a software I created especially for a company. I will however present it with the help of screenshot and explanation.
+This software therefore allows an administrator account (person involved in the distribution of payroll to employees within the company) to create an account for each employee, and to add his or her payroll records.</description>
+    </item>
+    
+  </channel>
+</rss>

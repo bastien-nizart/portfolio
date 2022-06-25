@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bastien.nizart.me/en/</loc>
-    <lastmod>2022-06-21T10:19:28+02:00</lastmod>
+    <lastmod>2022-06-24T10:19:28+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -13,6 +13,64 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://bastien.nizart.me/en/"
+                />
+  </url><url>
+    <loc>https://bastien.nizart.me/en/tags/company/</loc>
+    <lastmod>2022-06-24T10:19:28+02:00</lastmod>
+  </url><url>
+    <loc>https://bastien.nizart.me/en/projets/logiciel-de-paie/</loc>
+    <lastmod>2022-06-24T10:19:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://bastien.nizart.me/projets/logiciel-de-paie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bastien.nizart.me/en/projets/logiciel-de-paie/"
+                />
+  </url><url>
+    <loc>https://bastien.nizart.me/en/tags/php/</loc>
+    <lastmod>2022-06-24T10:19:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://bastien.nizart.me/tags/php/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bastien.nizart.me/en/tags/php/"
+                />
+  </url><url>
+    <loc>https://bastien.nizart.me/en/tags/programming/</loc>
+    <lastmod>2022-06-24T10:19:28+02:00</lastmod>
+  </url><url>
+    <loc>https://bastien.nizart.me/en/projets/</loc>
+    <lastmod>2022-06-24T10:19:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://bastien.nizart.me/projets/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bastien.nizart.me/en/projets/"
+                />
+  </url><url>
+    <loc>https://bastien.nizart.me/en/tags/</loc>
+    <lastmod>2022-06-24T10:19:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://bastien.nizart.me/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bastien.nizart.me/en/tags/"
                 />
   </url><url>
     <loc>https://bastien.nizart.me/en/tags/game/</loc>
@@ -42,35 +100,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://bastien.nizart.me/en/projets/demineur-java/"
-                />
-  </url><url>
-    <loc>https://bastien.nizart.me/en/tags/programming/</loc>
-    <lastmod>2022-06-21T10:19:28+02:00</lastmod>
-  </url><url>
-    <loc>https://bastien.nizart.me/en/projets/</loc>
-    <lastmod>2022-06-21T10:19:28+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://bastien.nizart.me/projets/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bastien.nizart.me/en/projets/"
-                />
-  </url><url>
-    <loc>https://bastien.nizart.me/en/tags/</loc>
-    <lastmod>2022-06-21T10:19:28+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://bastien.nizart.me/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bastien.nizart.me/en/tags/"
                 />
   </url><url>
     <loc>https://bastien.nizart.me/en/about/</loc>
