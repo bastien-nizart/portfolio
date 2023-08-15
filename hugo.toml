@@ -42,3 +42,8 @@ enableRobotsTXT = true
                     "Création de logiciels pour l'ensemble de l'entreprise (salarié, administration, finance...)",
                 ]},
             ]
+            studies = [
+                { title = "License Informatique", date = "2023 - 2024", location = "Faculté des sciences Jean Perrin, Lens", description = "Préparation d'une L3 informatique à l'université Jean Perrin (Lens)" },
+                { title = "BUT Informatique", date = "2021 - 2023", location = "IUT Informatique, Lens", description = "Obtention de ma deuxième année de BUT Informatique à l'IUT de Lens." },
+                { title = "Baccalauréat Général", date = "2019 - 2021", location = "Lycée Marguerite Yourcenar, Beuvry", description = "Obtention du Baccalauréat Général option Maths - Physique - Maths expertes, mention bien." },
+            ]
