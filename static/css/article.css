@@ -1,0 +1,67 @@
+main {
+    padding: 30px;
+}
+
+main h1 {
+    color: var(--main-blue);
+    font-weight: bold;
+}
+
+.tags {
+    background-color: var(--third-blue);
+    padding: 5px 15px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 10px 10px 10px 0px;
+    border-radius: 10px;;
+}
+
+main h2 {
+    color: var(--main-blue);
+    position: relative;
+    margin: 30px 0px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+main h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--secondary-blue);
+    bottom: 0;
+    left: 0;
+}
+
+main h3 {
+    color: var(--main-blue);
+    margin: 20px 0px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+main li {
+    font-size: 18px;
+}
+
+main img {
+    max-width: 100%;
+    max-height: 70vh;
+}
+
+main #content {
+    max-width: 1000px;
+}
+
+pre {
+    padding: 10px;
+    border-radius: 10px;;
+}

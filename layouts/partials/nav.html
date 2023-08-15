@@ -1,0 +1,28 @@
+<nav id="nav">
+    <div class="text-center">
+        <a href="/"><img class="" src="/img/profil.jpg" alt="profil-png" /></a>
+        <h3>{{ site.Params.name | default "Bastien Nizart" }}</h3>
+        <h5>{{ site.Params.bio | default "Étudiant | Auto Entrepreneur Développeur Back End" }}</h5>
+        <div class="socials">
+            {{ range $value := site.Params.socials }}
+                <a href="{{ $value.link }}" target="_blank">
+                    <i class="{{ $value.icon }}"></i>
+                </a>
+            {{ end }}
+        </div>
+    </div>
+    <ul>
+        <li><a href="/#resume">Parcours</a></li>
+        <li><a href="/#tools-section">Mes outils</a></li>
+        <li><a href="/#projects-section">Projets</a></li>
+        <li><a href="/projects">Tous mes projets</a></li>
+        <li><a href="/#contact">Me contacter</a></li>
+    </ul>  
+    <div id="credits">
+        <small>&copy; {{ now.Format "2006" }} Bastien Nizart</small>
+    </div>
+</nav>
+
+<div id="mobile-nav" onclick="nav_button()">
+    <i id="mobile-nav-icon" class="fa-solid fa-bars"></i>
+</div>

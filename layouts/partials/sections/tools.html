@@ -1,0 +1,11 @@
+<section id="tools-section">
+    <h2>Mes outils du quotidien</h2>
+    <div class="row justify-content-center">
+        {{ range $value := site.Params.tools }}
+            <div class="tools-card">
+                <i class="{{ $value.icon }}"></i>
+                <small class="text-body-secondary">{{ $value.text }}</small>
+            </div>
+        {{ end }}
+    </div>
+</section>

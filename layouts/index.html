@@ -1,0 +1,70 @@
+{{ define "main" }}
+    <main>
+        <section id="resume">
+            <h2>Parcours</h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="subsection">
+                        <h4 class="sub-title">Associatif</h4>
+                        <div class="item-timeline">
+                            <h4>Mentor AFEV</h4>
+                            <p class="date">11/2022 - Aujourd'hui</p>
+                            <p class="location">AFEV, Lens</p>
+                            <p>Accompagnement scolaire et social de deux enfants (primaire et collège) en difficultés.</p>
+                        </div>
+                    </div>
+                    <div class="subsection">
+                        <h4 class="sub-title">Scolaire</h4>
+                        <div class="item-timeline">
+                            <h4>License Informatique</h4>
+                            <p class="date">2023 - 2024</p>
+                            <p class="location">Faculté des sciences Jean Perrin, Lens</p>
+                            <p>Préparation d'une L3 informatique à l'université Jean Perrin (Lens)</p>
+                        </div>
+                        <div class="item-timeline">
+                            <h4>BUT INFORMATIQUE</h4>
+                            <p class="date">2021 - 2023</p>
+                            <p class="location">IUT Informatique, Lens</p>
+                            <p>Obtention de ma deuxième année de BUT Informatique à l'IUT de Lens.</p>
+                        </div>
+                        <div class="item-timeline">
+                            <h4>Baccalauréat Général</h4>
+                            <p class="date">2019 - 2021</p>
+                            <p class="location">Lycée Marguerite Yourcenar, Beuvry</p>
+                            <p>Obtention du Baccalauréat Général option Maths - Physique - Maths expertes, mention bien.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="subsection">
+                        <h4 class="sub-title">Professionnel</h4>
+                        <div class="item-timeline">
+                            <h4>Auto entrepreneur</h4>
+                            <p class="date">08/2022 - Aujourd'hui</p>
+                            <p class="location">Admitech, Vermelles</p>
+                            <small></small>
+                        </div>
+                        <div class="item-timeline">
+                            <h4>Développeur Backend (stage)</h4>
+                            <p class="date">04/2023 - 06/2023</p>
+                            <p class="location">Viously, Tourcoing</p>
+                            <small></small>
+                        </div>
+                        <div class="item-timeline">
+                            <h4>Développeur Backend</h4>
+                            <p class="date">01/2019 - 01/2023</p>
+                            <p class="location">SSP, Vermelles</p>
+                            <small></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {{ partial "sections/tools.html" . }}
+
+        {{ partial "sections/projects.html" . }}
+
+        {{ partial "sections/contact.html" . }}
+    </main>
+{{ end }}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="{{ site.Params.name | default "Bastien Nizart" }}" />
+    <meta name="description" content="{{ site.Params.bio | default "Étudiant | Auto Entrepreneur | Développeur Back End" }}" />
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <title>{{ block "title" . }}{{ site.Params.name | default "Bastien Nizart" }}{{ end }}</title>
+    <link href="/libraries/bootstrap/bootstrap-5-3-1.css" rel="stylesheet" type="text/css" />
+    <script src="/libraries/bootstrap/bootstrap-5-3-1.js" type="text/javascript"></script>
+    <link href="/libraries/fontawesome/css/fontawesome.css" rel="stylesheet" type="text/css" />
+    <link href="/libraries/fontawesome/css/solid.css" rel="stylesheet" type="text/css" />
+    <link href="/libraries/fontawesome/css/brands.css" rel="stylesheet" type="text/css" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    {{ block "custom-css" . }}{{ end }}
+    <script src="js/nav.js" type="text/javascript"></script>
+</head>
+<body>
+    {{ partial "nav.html" . }}
+    
+    {{ block "main" . }}
+    {{ end }}
+</body>
+</html>

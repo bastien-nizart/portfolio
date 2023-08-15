@@ -1,0 +1,28 @@
+kind: pipeline
+type: docker
+name: deploy portfolio
+
+steps:
+  - name: build
+    image: plugins/hugo
+    settings:
+      config: hugo.toml
+      output: www/
+
+  - name: deploy
+    image: appleboy/drone-scp
+    settings:
+      host:
+        from_secret: scp_host
+      username: 
+        from_secret: scp_username
+      password: 
+        from_secret: scp_password
+      port: 
+        from_secret: scp_port
+      target: /mnt/user/www/portfolio/
+      overwrite: true
+      source: www/*
+    when:
+      branch: [main]
+      event: [push]

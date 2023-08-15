@@ -1,0 +1,28 @@
+baseURL = 'https://bastien.nizart.me/'
+languageCode = 'fr'
+title = 'Bastien Nizart'
+contentDir = "content"
+defaultContentLanguage = "fr"
+enableRobotsTXT = true
+
+[languages]
+    [languages.fr]
+        [languages.fr.params]
+            name = 'Bastien Nizart'
+            bio = 'Étudiant | Auto Entrepreneur Développeur Backend'
+            socials = [
+                { link = "https://github.com/bastien-nizart", icon = "fa-brands fa-github"},
+                { link = "https://www.linkedin.com/in/bastien-nizart", icon = "fa-brands fa-linkedin"},
+                { link = "mailto:bastien@nizart.me", icon = "fa-solid fa-envelope"},
+                { link = "https://thumbmail.nizart.me/documents/cv-bastien-nizart.pdf", icon = "fa-solid fa-address-card"},
+            ]
+            tools = [
+                { text = "Laravel, POO", icon = "fa-brands fa-php"},
+                { text = "JavaFX, POO", icon = "fa-brands fa-java"},
+                { text = "Flask, MathPlotLib", icon = "fa-brands fa-python"},
+                { text = "Kotlin, Flutter", icon = "fa-solid fa-mobile-screen"},
+                { text = "MySQL, PGSQL, SQL, SQLite", icon = "fa-solid fa-database"},
+                { text = "Bootstrap, Flexbox", icon = "fa-brands fa-html5"},
+                { text = "MacOS, Linux, Windows", icon = "fa-brands fa-linux"},
+                { text = "Git, Bash, Apache", icon = "fa-solid fa-code-branch"},
+            ]

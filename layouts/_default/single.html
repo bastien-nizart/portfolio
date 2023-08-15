@@ -1,0 +1,25 @@
+{{ define "title" }}
+    {{ .Title }}
+{{ end }}
+
+{{ define "custom-css" }}
+    <link href="/css/article.css" rel="stylesheet" />
+{{ end }}
+
+{{ define "main" }}
+    <main>
+        <h1>{{ .Title }}</h1>
+        <div>
+            <p class="tags">11/2022</p>
+            {{ range .Param "authors" }}
+                <p class="tags">{{ . }}</p>
+            {{ end }}
+            {{ range first 3 (.Param "tags") }}
+                <p class="tags">{{ . }}</p>
+            {{ end }}
+        </div>
+        <div id="content">
+            {{ .Content }}
+        </div>
+    </main>
+{{ end }}
