@@ -26,3 +26,19 @@ enableRobotsTXT = true
                 { text = "MacOS, Linux, Windows", icon = "fa-brands fa-linux"},
                 { text = "Git, Bash, Apache", icon = "fa-solid fa-code-branch"},
             ]
+            professionals = [
+                { title = "Auto entrepreneur", date = "08/2022 - Aujourd'hui", location = "Admitech, Vermelles", responsibilities = [
+                    "Création de logiciels fullstack pour différentes entreprises",
+                    "Maintien et mise en place d'infrastructure cloud",
+                    "Mise à jour de logiciel déjà existant"
+                ]},
+                { title = "Développeur Backend (stage)", date = "04/2023 - 06/2023", location = "Viously, Tourcoing", responsibilities = [
+                    "Amélioration du workflow de développement",
+                    "Ajout de fonctionnalités internes",
+                ]},
+                { title = "Développeur Backend", date = "01/2019 - 01/2023", location = "SSP, Vermelles", responsibilities = [
+                    "Création d'une suite logicielle interne pour l'entreprise",
+                    "Maintien et mise en place d'infrastructure cloud",
+                    "Création de logiciels pour l'ensemble de l'entreprise (salarié, administration, finance...)",
+                ]},
+            ]
