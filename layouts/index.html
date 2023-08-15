@@ -6,67 +6,42 @@
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="subsection">
                         <h4 class="sub-title">Associatif</h4>
-                        <div class="item-timeline">
-                            <h4>Mentor AFEV</h4>
-                            <p class="date">11/2022 - Aujourd'hui</p>
-                            <p class="location">AFEV, Lens</p>
-                            <p>Accompagnement scolaire et social de deux enfants (primaire et collège) en difficultés.</p>
-                        </div>
+                        {{ range site.Params.associatives }}
+                            <div class="item-timeline">
+                                <h4>{{ .title }}</h4>
+                                <p class="date">{{ .date }}</p>
+                                <p class="location">{{ .location }}</p>
+                                <p>{{ .description }}</p>
+                            </div>
+                        {{ end }}
                     </div>
                     <div class="subsection">
                         <h4 class="sub-title">Scolaire</h4>
-                        <div class="item-timeline">
-                            <h4>License Informatique</h4>
-                            <p class="date">2023 - 2024</p>
-                            <p class="location">Faculté des sciences Jean Perrin, Lens</p>
-                            <p>Préparation d'une L3 informatique à l'université Jean Perrin (Lens)</p>
-                        </div>
-                        <div class="item-timeline">
-                            <h4>BUT INFORMATIQUE</h4>
-                            <p class="date">2021 - 2023</p>
-                            <p class="location">IUT Informatique, Lens</p>
-                            <p>Obtention de ma deuxième année de BUT Informatique à l'IUT de Lens.</p>
-                        </div>
-                        <div class="item-timeline">
-                            <h4>Baccalauréat Général</h4>
-                            <p class="date">2019 - 2021</p>
-                            <p class="location">Lycée Marguerite Yourcenar, Beuvry</p>
-                            <p>Obtention du Baccalauréat Général option Maths - Physique - Maths expertes, mention bien.</p>
-                        </div>
+                        {{ range site.Params.studies }}
+                            <div class="item-timeline">
+                                <h4>{{ .title }}</h4>
+                                <p class="date">{{ .date }}</p>
+                                <p class="location">{{ .location }}</p>
+                                <p>{{ .description }}</p>
+                            </div>
+                        {{ end }}
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="subsection">
                         <h4 class="sub-title">Professionnel</h4>
-                        <div class="item-timeline">
-                            <h4>Auto entrepreneur</h4>
-                            <p class="date">08/2022 - Aujourd'hui</p>
-                            <p class="location">Admitech, Vermelles</p>
-                            <ul>
-                                <li>Création de logiciels fullstack pour différentes entreprises</li>
-                                <li>Maintien et mise en place d'infrastructure cloud</li>
-                                <li>Mise à jour de logiciel déjà existant</li>
-                            </ul>
-                        </div>
-                        <div class="item-timeline">
-                            <h4>Développeur Backend (stage)</h4>
-                            <p class="date">04/2023 - 06/2023</p>
-                            <p class="location">Viously, Tourcoing</p>
-                            <ul>
-                                <li>Amélioration du workflow de développement</li>
-                                <li>Ajout de fonctionnalités internes</li>
-                            </ul>
-                        </div>
-                        <div class="item-timeline">
-                            <h4>Développeur Backend</h4>
-                            <p class="date">01/2019 - 01/2023</p>
-                            <p class="location">SSP, Vermelles</p>
-                            <ul>
-                                <li>Création d'une suite logicielle interne pour l'entreprise</li>
-                                <li>Maintien et mise en place d'infrastructure cloud</li>
-                                <li>Création de logiciels pour l'ensemble de l'entreprise (salarié, administration, finance...)</li>
-                            </ul>
-                        </div>
+                        {{ range site.Params.professionals }}
+                            <div class="item-timeline">
+                                <h4>{{ .title }}</h4>
+                                <p class="date">{{ .date }}</p>
+                                <p class="location">{{ .location }}</p>
+                                <ul>
+                                    {{ range .responsibilities }}
+                                        <li>{{ . }} </li>
+                                    {{ end }}
+                                </ul>
+                            </div>
+                        {{ end }}
                     </div>
                 </div>
             </div>
