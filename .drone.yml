@@ -7,7 +7,7 @@ steps:
     image: plugins/hugo
     settings:
       config: hugo.toml
-      output: www/
+      output: portfolio-hugo/
 
   - name: deploy
     image: appleboy/drone-scp
@@ -20,9 +20,9 @@ steps:
         from_secret: scp_password
       port: 
         from_secret: scp_port
-      target: /mnt/user/www/portfolio/
+      target: /mnt/user/www/portfolio-hugo/
       overwrite: true
-      source: www/*
+      source: portfolio-hugo/*
     when:
       branch: [main]
       event: [push]
