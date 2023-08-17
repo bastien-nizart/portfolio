@@ -2,3 +2,5 @@ public/
 .DS_Store
 resources/_gen/
 .hugo_build.lock
+secrets.txt
+portfolio
