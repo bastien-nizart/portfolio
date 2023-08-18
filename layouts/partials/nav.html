@@ -1,6 +1,12 @@
 <nav id="nav">
     <div class="text-center">
-        <a href="/"><img class="" src="/img/profil.jpg" alt="profil-png" /></a>
+        <a href="/">
+            <picture>
+                <source srcset="img/profil.webp" type="image/webp">
+                <source srcset="img/profil.jpg" type="image/jpeg"> 
+                <img src="/img/profil.jpg" alt="profil-png" />
+            </picture> 
+        </a>
         <h3>{{ site.Params.name | default "Bastien Nizart" }}</h3>
         <h5>{{ site.Params.bio | default "Étudiant | Auto Entrepreneur Développeur Back End" }}</h5>
         <div class="socials">
