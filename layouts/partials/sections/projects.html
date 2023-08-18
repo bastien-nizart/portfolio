@@ -5,7 +5,11 @@
             <div class="container-card mb-3 mt-3">
                 <a href="{{ .RelPermalink }}" style="text-decoration: none;">
                     <div class="card h-100">
-                        <img src="{{ .RelPermalink }}/cover.jpg" class="card-img-top" alt="...">
+                        <picture>
+                            <source srcset="{{ .RelPermalink }}/cover.webp" type="image/webp">
+                            <source srcset="{{ .RelPermalink }}/cover.jpg" type="image/jpeg"> 
+                            <img class="card-img-top" src="{{ .RelPermalink }}/cover.jpg" alt="cover" />
+                        </picture> 
                         <div class="card-body">
                         <h5 class="card-title">{{ .Title }}</h5>
                         <p class="card-text text-justify">{{ .Description | safeHTML | truncate 100 }}</p>
